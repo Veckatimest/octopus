@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+#main_container {
+	height: 900px;
+	max-width: 70%;
+	background-color: #FFE4C4;
+	padding:10px 0px 0px 0px; 
+}
+
+.message_container {
+	height: 60px;
+	width:90%;
+	padding: 10px;
+	border-radius:5px;
+	background: #e74629;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px 0px 10px 10px;
+	display: block;
+}
+
+.message_container > h3 {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 5px 0px 5px 0px;   
+}
+
+.message_container > p {
+	font-size: 15px;
+}
+
