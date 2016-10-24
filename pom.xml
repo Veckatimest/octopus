@@ -2,16 +2,42 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>grisha</groupId>
-  <artifactId>l2</artifactId>
+  <artifactId>octopol</artifactId>
   <packaging>war</packaging>
   <version>0.0.1</version>
-  <name>l2 Maven Webapp</name>
+  <name>SpringOctoChat</name>
   <url>http://maven.apache.org</url>
   <dependencies>
   	<dependency>
     	<groupId>org.apache.tomcat</groupId>
     	<artifactId>tomcat-catalina</artifactId>
     	<version>9.0.0.M10</version>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-context</artifactId>
+		<version>4.3.3.RELEASE</version>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-webmvc</artifactId>
+		<version>4.3.3.RELEASE</version>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-web</artifactId>
+		<version>4.3.3.RELEASE</version>
+	</dependency>
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>jstl</artifactId>
+		<version>1.2</version>
+	</dependency>
+	<dependency>
+    	<groupId>javax.servlet</groupId>
+    	<artifactId>javax.servlet-api</artifactId>
+    	<version>3.1.0</version>
+    	<scope>provided</scope>
 	</dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -21,7 +47,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>l2</finalName>
+    <finalName>octochat</finalName>
      <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
